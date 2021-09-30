@@ -13,11 +13,39 @@
     <h1>Barraca Ladrillos SRL Stock Control</h1>
     <h2>Ingreso:</h2>
     <div class="ingreso">
-        <p>
-            Tipo de transacción:
-            <input type="radio" name="compraventa" value="compra">Compra
-            <input type="radio" name="compraventa" value="venta">Venta
-        </p>
+        <form>
+            <p>
+                Tipo de transacción:
+                <input type="radio" name="compraventa" value="compra">Compra
+                <input type="radio" name="compraventa" value="venta">Venta
+            </p>
+            <p>
+                Fecha:
+                <input type="date">
+            </p>
+            <p>
+                Nombre del Producto:
+                <input type="text">
+            </p>
+            <p>
+                Cantidad:
+                <input type="number">
+            </p>
+            <p>
+                Costo Unidad:
+                <input type="number">
+            </p>
+            <p>
+                Subtotal{$} :
+                <input type="number">
+            </p>
+            <p>
+                Tipo IVA:
+                <input type="radio" name="iva" value="basico">Básico
+                <input type="radio" name="iva" value="minimo">Mínimo
+                <input type="radio" name="iva" value="exento">Exento
+            </p>
+        </form>
     </div>
 
 </body>
